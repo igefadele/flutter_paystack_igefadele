@@ -1,7 +1,7 @@
-name: flutter_paystack
+name: flutter_paystack_igefadele
 description: A Flutter plugin for making payments via Paystack Payment Gateway. Completely supports Android and iOS.
 version: 1.0.7
-homepage: https://github.com/wilburt/flutter_paystack
+homepage: https://github.com/igefadele/flutter_paystack_igefadele
 
 dependencies:
   flutter:
