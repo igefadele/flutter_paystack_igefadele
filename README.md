@@ -1,13 +1,13 @@
 # :credit_card: Paystack Plugin for Flutter
 
-[![build status](https://img.shields.io/github/workflow/status/wilburt/flutter_paystack/Build%20and%20Test)](https://github.com/wilburt/flutter_paystack/actions?query=Build+and+test)
-[![Coverage Status](https://coveralls.io/repos/github/wilburt/flutter_paystack/badge.svg?branch=master)](https://coveralls.io/github/wilburt/flutter_paystack?branch=master)
-[![pub package](https://img.shields.io/pub/v/flutter_paystack.svg)](https://pub.dartlang.org/packages/flutter_paystack)
+[![build status](https://img.shields.io/github/workflow/status/igefadele/flutter_paystack_igefadele/Build%20and%20Test)](https://github.com/igefadele/flutter_paystack_igefadele/actions?query=Build+and+test)
+[![Coverage Status](https://coveralls.io/repos/github/igefadele/flutter_paystack_igefadele/badge.svg?branch=master)](https://coveralls.io/repos/github/igefadele/flutter_paystack_igefadele?branch=master)
+[![pub package](https://img.shields.io/pub/v/flutter_paystack.svg)](https://pub.dev/packages/flutter_paystack)
 
 
 <p>
-    <img src="https://raw.githubusercontent.com/wilburt/flutter_paystack/master/screenshots/card_payment.png" width="200px" height="auto" hspace="20"/>
-    <img src="https://raw.githubusercontent.com/wilburt/flutter_paystack/master/screenshots/bank_payment.png" width="200px" height="auto" hspace="20"/>
+    <img src="https://raw.githubusercontent.com/igefadele/flutter_paystack_igefadele/master/screenshots/card_payment.png" width="200px" height="auto" hspace="20"/>
+    <img src="https://raw.githubusercontent.com/igefadele/flutter_paystack_igefadele/master/screenshots/bank_payment.png" width="200px" height="auto" hspace="20"/>
 </p>
 
 
@@ -58,7 +58,7 @@ There are two ways of making payment with the plugin.
         // or ..accessCode = _getAccessCodeFrmInitialization()
        ..email = 'customer@email.com';
      CheckoutResponse response = await plugin.checkout(
-       context context,
+       context,
        method: CheckoutMethod.card, // Defaults to CheckoutMethod.selectable
        charge: charge,
      );
@@ -67,14 +67,13 @@ There are two ways of making payment with the plugin.
 Please, note that an `accessCode` is required if the method is
 `CheckoutMethod.bank` or `CheckoutMethod.selectable`.
 
- `plugin.checkout()` returns the state and details of the
- payment in an instance of `CheckoutResponse` .
- 
- 
- It is recommended that when `plugin.checkout()` returns, the
- payment should be
- [verified](https://developers.paystack.co/v2.0/reference#verify-transaction)
- on your backend.
+`plugin.checkout()` returns the state and details of the
+payment in an instance of `CheckoutResponse`.
+
+It is recommended that when `plugin.checkout()` returns, the
+payment should be
+[verified](https://developers.paystack.co/v2.0/reference#verify-transaction)
+on your backend.
 
 ### 2. :star: Charge Card
 You can choose to initialize the payment locally or via your backend.
@@ -167,13 +166,15 @@ Paystack provides tons of [payment cards](https://developers.paystack.co/docs/te
 ## :arrow_forward: Running Example project
 For help getting started with Flutter, view the online [documentation](https://flutter.io/).
 
-An [example project](https://github.com/wilburt/flutter_paystack/tree/master/example) has been provided in this plugin.
+An [example project](https://github.com/igefadele/flutter_paystack_igefadele/tree/master/example) has been provided in this plugin.
 Clone this repo and navigate to the **example** folder. Open it with a supported IDE or execute `flutter run` from that folder in terminal.
 
 ## :pencil: Contributing, :disappointed: Issues and :bug: Bug Reports
 The project is open to public contribution. Please feel very free to contribute.
-Experienced an issue or want to report a bug? Please, [report it here](https://github.com/wilburt/flutter_paystack/issues). Remember to be as descriptive as possible.
+Experienced an issue or want to report a bug? Please, [report it here](https://github.com/igefadele/flutter_paystack_igefadele/issues). Remember to be as descriptive as possible.
 
-## :trophy: Credits
-Thanks to the authors of Paystack [iOS](https://github.com/PaystackHQ/paystack-ios) and [Android](https://github.com/PaystackHQ/paystack-android) SDKS. I leveraged on their work to bring this plugin to fruition.
+## 👨💻 Architect & Author
+**Ige Fadele** — *Principal AI Systems Architect & Machine Learning Engineer*  
+🌐 **Website & Portfolio:** [igefadele.savadub.com](https://igefadele.savadub.com) | 🏫 **Institute:** [institute.savadub.com](https://institute.savadub.com) | 💼 **LinkedIn:** [linkedin.com/in/igefadele](https://linkedin.com/in/igefadele) | 🐙 **GitHub:** [github.com/igefadele](https://github.com/igefadele)  
+🐦 **X (Twitter):** [@igefadele](https://x.com/igefadele) | 📺 **YouTube:** [@igefadele](https://youtube.com/@igefadele) | 📸 **Instagram:** [@igefadele](https://instagram.com/@igefadele) | 🎵 **TikTok:** [@igefadele](https://tiktok.com/@igefadele) | 👤 **Facebook:** [facebook.com/igefadele](https://facebook.com/igefadele)
 
