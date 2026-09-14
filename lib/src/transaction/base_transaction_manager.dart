@@ -3,18 +3,18 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_paystack/src/api/model/transaction_api_response.dart';
-import 'package:flutter_paystack/src/common/exceptions.dart';
-import 'package:flutter_paystack/src/common/paystack.dart';
-import 'package:flutter_paystack/src/common/utils.dart';
-import 'package:flutter_paystack/src/models/card.dart';
-import 'package:flutter_paystack/src/models/charge.dart';
-import 'package:flutter_paystack/src/models/checkout_response.dart';
-import 'package:flutter_paystack/src/models/transaction.dart';
-import 'package:flutter_paystack/src/widgets/birthday_widget.dart';
-import 'package:flutter_paystack/src/widgets/card_widget.dart';
-import 'package:flutter_paystack/src/widgets/otp_widget.dart';
-import 'package:flutter_paystack/src/widgets/pin_widget.dart';
+import 'package:flutter_paystack_igefadele/src/api/model/transaction_api_response.dart';
+import 'package:flutter_paystack_igefadele/src/common/exceptions.dart';
+import 'package:flutter_paystack_igefadele/src/common/paystack.dart';
+import 'package:flutter_paystack_igefadele/src/common/utils.dart';
+import 'package:flutter_paystack_igefadele/src/models/card.dart';
+import 'package:flutter_paystack_igefadele/src/models/charge.dart';
+import 'package:flutter_paystack_igefadele/src/models/checkout_response.dart';
+import 'package:flutter_paystack_igefadele/src/models/transaction.dart';
+import 'package:flutter_paystack_igefadele/src/widgets/birthday_widget.dart';
+import 'package:flutter_paystack_igefadele/src/widgets/card_widget.dart';
+import 'package:flutter_paystack_igefadele/src/widgets/otp_widget.dart';
+import 'package:flutter_paystack_igefadele/src/widgets/pin_widget.dart';
 
 abstract class BaseTransactionManager {
   bool processing = false;

@@ -1,8 +1,8 @@
-# :credit_card: Paystack Plugin for Flutter
+# :credit_card: Paystack Plugin for Flutter (`flutter_paystack_igefadele`)
 
 [![build status](https://img.shields.io/github/workflow/status/igefadele/flutter_paystack_igefadele/Build%20and%20Test)](https://github.com/igefadele/flutter_paystack_igefadele/actions?query=Build+and+test)
 [![Coverage Status](https://coveralls.io/repos/github/igefadele/flutter_paystack_igefadele/badge.svg?branch=master)](https://coveralls.io/repos/github/igefadele/flutter_paystack_igefadele?branch=master)
-[![pub package](https://img.shields.io/pub/v/flutter_paystack.svg)](https://pub.dev/packages/flutter_paystack)
+[![pub package](https://img.shields.io/pub/v/flutter_paystack_igefadele.svg)](https://pub.dev/packages/flutter_paystack_igefadele)
 
 
 <p>
@@ -15,12 +15,17 @@ A Flutter plugin for making payments via Paystack Payment Gateway. Fully
 supports Android and iOS.
 
 ## :rocket: Installation
-To use this plugin, add `flutter_paystack` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `flutter_paystack_igefadele` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+
+```yaml
+dependencies:
+  flutter_paystack_igefadele: ^1.0.7
+```
 
 Then initialize the plugin preferably in the `initState` of your widget.
 
 ``` dart
-import 'package:flutter_paystack/flutter_paystack.dart';
+import 'package:flutter_paystack_igefadele/flutter_paystack_igefadele.dart';
 
 class _PaymentPageState extends State<PaymentPage> {
   var publicKey = '[YOUR_PAYSTACK_PUBLIC_KEY]';

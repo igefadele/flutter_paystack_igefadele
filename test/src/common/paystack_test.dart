@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_paystack/src/common/paystack.dart';
+import 'package:flutter_paystack_igefadele/src/common/paystack.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
